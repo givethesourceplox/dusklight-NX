@@ -20,7 +20,7 @@ It aims to be as accurate as possible to the original while also providing new o
 > Dusklight does *not* provide any copyrighted assets. You must provide your own copy of the original game.
 
 > [!IMPORTANT]
-> At a minimum, Dusklight requires a GPU with support for either D3D12, Vulkan, or Metal. Your experience with specific hardware, operating systems, and drivers may vary. In particular, older Intel iGPUs have a high likelihood of incompatibility. We are also aware of a number of issues on devices with Adreno GPUs and are working to resolve them.
+> At a minimum, Dusklight requires a GPU with support for either D3D12, Vulkan, or Metal on supported platforms. On Nintendo Switch, performance and compatibility may vary depending on hardware and system version.
 
 ### 1. Verify your dump
 
@@ -33,23 +33,17 @@ First, make sure your dump of the game is clean and supported by Dusklight. You 
 
 *Support for other versions of the game is planned in the future.
 
-### 2. Download [Dusklight](https://github.com/TwilitRealm/dusklight/releases)
+### 2. Download Dusklight
 
-### 3. Setup the game
-**Windows / macOS / Linux**
-- Extract the .zip file
-- Launch Dusklight
-- Press **Select Disc Image** and provide the path to your supported game dump
-- Press **Play**!
+Download the latest release from the [releases page](https://github.com/givethesourceplox/dusklight-nx/releases).  
+For Nintendo Switch, download the provided `.nro` file.
 
-**iOS**
-- Follow the [iOS setup guide](docs/ios-install-altstore.md)
+### 3. Setup on Nintendo Switch
 
-**Android**
-- Install the Dusklight APK
-- Launch Dusklight
-- Press **Select Disc Image** and provide the path to your supported game dump
-- Press **Play**!
+- Copy the `.nro` file to your Switch `switch/` folder on the SD card
+- Launch via your preferred homebrew loader
+- On first launch, select your supported game dump
+- Press **Play**
 
 # Building
 
